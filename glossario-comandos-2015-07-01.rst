@@ -13,16 +13,16 @@ cat
 
 
 cd
-  Descrição do comando
+ 
   Entra em um diretorio
 
 
 cowsay
-  Descrição do comando
+  Utiliza a aplicação do cowsay, para enviar mensagens entre computadores
 
 
 echo
-  Descrição do comando
+  
   imprimi algo na tela
 
 
@@ -37,6 +37,7 @@ exit
 
 
 help
+  Mostra os principais comando que podem ser usados no cyngwin
   Descrição do comando
 
 
@@ -77,7 +78,7 @@ passswd
 
 
 pwd
-  Descrição do comando
+  
   Mostra o diretorio que você se encontra
 
 
