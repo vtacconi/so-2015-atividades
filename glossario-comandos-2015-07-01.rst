@@ -46,7 +46,7 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Descrição do comando
+  Comando que exibi o nome da maquina.
 
 
 ifconfig
@@ -62,11 +62,12 @@ lastb
 
 
 ls
-  Descrição do comando
+  Lista os Diretorios
 
 
 mkdir
-  Descrição do comando
+  Criar diretorio/pasta. EX: mkdir fusca.
+  
 
 
 nome="fulano
