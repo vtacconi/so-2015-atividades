@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Vítor Ferraz Silva Tacconi
+:Matrícula: 20121144010648
 :Data: 01/07/2015
 
 cat
@@ -14,6 +14,7 @@ cat
 
 cd
   Descrição do comando
+  Entra em um diretorio
 
 
 cowsay
@@ -22,13 +23,16 @@ cowsay
 
 echo
   Descrição do comando
+  imprimi algo na tela
 
 
 env
   Descrição do comando
+  Mostra variaveis do sistema
 
 
 exit
+
   Descrição do comando
 
 
@@ -74,6 +78,7 @@ passswd
 
 pwd
   Descrição do comando
+  Mostra o diretorio que você se encontra
 
 
 set
