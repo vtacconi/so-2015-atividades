@@ -47,27 +47,37 @@ env
 exit
   Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
   Descrição do comando
+  Exemplo: exit
 
 
 help
   Mostra os principais comando que podem ser usados no cyngwin
   Descrição do comando
+  Exemplo: help
 
 
 HISTTIMEFORMAT="%d/%m/%y
+  Comando  para que seja possível incluir informação sobre a data e hora
+  echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc
+  source ~/.bashrc
   Descrição do comando
 
 
 hostname
   Comando que exibi o nome da maquina.
+  Exemplo: hostname
 
 
 ifconfig
+  O comando ifconfig é utilizado para atribuir um endereço a uma interface de rede ou configurar parâmetros de interface de rede. 
+  Você verá os alias/apelidos da interface eth0 e os seus endereços IPs. 
   Descrição do comando
 
 
 last
+  O comando last exibe a lista dos usuários que autenticaram no sistema.
   Descrição do comando
+  Exemplo: Last
 
 
 lastb
@@ -77,6 +87,7 @@ lastb
 ls
   Lista os Diretorios.
   Lista todos os arquivos do diretório.
+  Exemplo: ls [opções] [caminho/arquivo] [caminho1/arquivo1] ...
 
 
 mkdir
@@ -86,12 +97,14 @@ mkdir
 
 
 nome="fulano
+Adiciona o valor "fulano" a variavel nome
   Descrição do comando
 
 
 passswd
   Mudar a password do nosso utilizador (usuário logado)
   Descrição do comando
+  Exemplo: passwd {NOME-DO-USUÁRIO}
 
 
 pwd
@@ -104,48 +117,82 @@ pwd
 set
   Descrição do comando
   Define variáveis da sessão, ou seja, da shell, na C shell, na bash ou na ksh
+  Exemplo:
+  Set //vai mostrar todas as variaveis
+  SET P //vai mostrar apenas as variaveis que começam com "p"
 
 
 tree
   Descrição do comando
+  Tree é um comando do MS-DOS que exibe uma árvore de pastas e arquivos.
+  Exemplo: tree
+  
 
 
 tty
+  TTY é simplesmente um terminal ao qual você está conectado.
+   tty é um comando Unix que imprime na saída padrão o nome do arquivo conectado à entrada padrão
   Descrição do comando
+  	Exemplo:
+CTRL + ALT + F#
+
+$ tty
+/dev/pts/0
 
 
 vim
   Descrição do comando
   Editor de texto full-screen melhorado (vi improved)
+  Exemplo: xxx vim
 
 
 wait
-  Descrição do comando
-
+  Wait é um comando que paraliza a execução de proocessos que estão sendo executados em segundo plano. 
+  Exemplo: 
+  wait 2017 //para o processo de numero 2017
 
 wall
-  Descrição do comando
+Envia uma mensagem a todos os usuários do sistema. Este comando faz a leitura de um arquivo ou entrada padrão e escreve o resultado em todos os terminais onde existem usuários conectados. Somente o usuário root pode utilizar este comando.
+Ex:
+wall [arquivo]
 
-
+Exemplos: wall /tmp/mensagem.txt, echo Teste de mensagem enviada a todos os usuários conectados ao sistema|wall.
+ 
+ 
 which
-  Descrição do comando
+  which - busca por executáveis nos PATHs exportados.
+  Exemplo:
+  
+   which httpd
+   /usr/sbin/httpd 
 
 
 while
-  Descrição do comando
+O comando “while” com em outras linguagens de software executa um bloco de código enquanto sua condição for verdadeira.
+  
+  Exemplo:
+  
+  while <condição>;do
+    bloco de código/ comando...
+done
 
 
 who
   Descrição do comando
   Mostra-nos quem está logado no sistema
+  mostra quem está usando o sistema.
+  Exemplo: who
 
 
 whoami
   Descrição do comando
   Diz-nos quem é o dono da shell
+  EX: whoami
 
 
 write
   Escrever para outros utilizadores que estejam logados no momento
-        Descrição do comando
+    
+      Exemplo:
+      write to all
 
