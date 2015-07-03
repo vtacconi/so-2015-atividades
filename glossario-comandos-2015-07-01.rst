@@ -9,6 +9,7 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
+  Abre um arquivo.
   O comando cat, do sistema operacional, Unix é usado para unir, criar e exibir arquivos.
   O nome remete a "concatenate" ("concatenar" em inglês). Em geral é usado desta maneira para exibir o conteúdo de um arquivo na saída padrão:1
   Exemplo: $ cat arquivo
@@ -26,20 +27,25 @@ cd
 
 cowsay
   Utiliza a aplicação do cowsay, para enviar mensagens entre computadores
+  Exemplo:
+  cowsay Muito interessante | write to all
 
 
 echo
   
   imprimi algo na tela
+  Exemplo:
+  $ echo "Este é um teste"
 
 
 env
   Descrição do comando
   Mostra variaveis do sistema
+  Exemplo: env
 
 
 exit
-
+  Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
   Descrição do comando
 
 
@@ -69,11 +75,13 @@ lastb
 
 
 ls
-  Lista os Diretorios
+  Lista os Diretorios.
+  Lista todos os arquivos do diretório.
 
 
 mkdir
   Criar diretorio/pasta. EX: mkdir fusca.
+  Cria um diretório.
   
 
 
@@ -82,16 +90,20 @@ nome="fulano
 
 
 passswd
+  Mudar a password do nosso utilizador (usuário logado)
   Descrição do comando
 
 
 pwd
   
-  Mostra o diretorio que você se encontra
+  Mostra o diretorio que você se encontra.
+  O diretório de trabalho atual.
+  Exemplo: pwd
 
 
 set
   Descrição do comando
+  Define variáveis da sessão, ou seja, da shell, na C shell, na bash ou na ksh
 
 
 tree
@@ -104,6 +116,7 @@ tty
 
 vim
   Descrição do comando
+  Editor de texto full-screen melhorado (vi improved)
 
 
 wait
@@ -124,12 +137,15 @@ while
 
 who
   Descrição do comando
+  Mostra-nos quem está logado no sistema
 
 
 whoami
   Descrição do comando
+  Diz-nos quem é o dono da shell
 
 
-    write
+write
+  Escrever para outros utilizadores que estejam logados no momento
         Descrição do comando
 
