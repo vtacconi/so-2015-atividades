@@ -9,12 +9,19 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
-
+  O comando cat, do sistema operacional, Unix é usado para unir, criar e exibir arquivos.
+  O nome remete a "concatenate" ("concatenar" em inglês). Em geral é usado desta maneira para exibir o conteúdo de um arquivo na saída padrão:1
+  Exemplo: $ cat arquivo
+  
+   $ cat arquivo2 >> arquivo1
 
 cd
- 
   Entra em um diretorio
+  Seu nome é um acrônimo da expressão inglesa change directory ("mudar diretório") e sua finalidade é, como sugere seu nome, mudar o diretório atual de trabalho (isto é, o diretório em que se está) para uma outra especificada.
+  Exemplo
+  me@host:~$ cd games
+  
+  me@host:~/games$ cd ../fotos
 
 
 cowsay
